@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    font-size: 62.5%; // Ustawienie domyślnej wielkości czcionki na 10px
+  }
+  
+  body {
+    background-color: #dcdfdf;
+    font-family: 'Nova square', sans-serif;
+  }
+
+  .sub-style {
+    color: white;
+    text-decoration: none;	
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70rem;
+  }
+
+  @media (min-width:768px){
+    .wrapper {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 120rem;
+    }
+  }

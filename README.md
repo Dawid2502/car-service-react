@@ -25,6 +25,7 @@ The project is a website for a mechanic. It consists of a navigation panel and s
 
 ## Documentation
 https://react-slick.neostack.com/
+
 https://react.dev/
 
 ## Installation

@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/af2561cf-9f8d-4aa2-8c4e-e623261017cf" width="800" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project: ProMechaniker
 
-## Available Scripts
+## Content of project
 
-In the project directory, you can run:
+* [Description](#description)
+* [Technologies](#technologies)
+* [Documentation](#documentation)
+* [Installation](#installation)
+* [Parts of page](#parts-of-page)
+* [Parts description](#parts-description)
+* [Goals on future](#goals-on-future)
+* [Photo's source](#photos-source)
+* [Live](#live)
 
-### `npm start`
+## Description
+The project is a website for a mechanic. It consists of a navigation panel and several elements. The website includes, among others: offer, portfolio, contact sections. The website represents only the Front-end without the Back-end
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies
+* HTML
+* CSS (SASS)
+* Javascript
+* React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Documentation
+https://react-slick.neostack.com/
+https://react.dev/
 
-### `npm test`
+## Installation
+To install the project on your computer you need to:
+* Install node.js in any code editor, e.g. Visual Studio Code
+  
+* Launch the terminal and clone the project
+  ```
+  git clone https://github.com/Dawid2502/react-photograph-site.git
+  ```
+* Go to the project directory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ```
+  cd react-photograph-site
+  ```
+* Install dependencies
 
-### `npm run build`
+  ```
+  npm install
+  ```
+* Start aplication
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ```
+  npm start
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Parts of page
+* Section aboutme
+* Section Services
+* Section Contact
+* FAQ
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Parts description
 
-### `npm run eject`
+### Navbar
+Page navigation changes with screen resolution. The services tab has a drop-down submenu when clicked.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navigation form for resolutions smaller than 768px (e.g. smartphone, tablet).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/96a51775-ffb8-46bd-b348-fc4a92d4f4c1" width="240" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigation form for resolutions larger than 768px.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/d091f108-7778-47e9-ba72-75aa5dc86d63" width="400"/>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### About company
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/2501a6d8-f499-42b5-a3b8-a83348354657)" width="400"/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Services
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After clicking on the services box, a new page will open with a description of the given service.
 
-### Analyzing the Bundle Size
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/56eb44ee-ccdb-4783-bfd5-d701e1a21146)" width="400"/>
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/6d99e0f9-53c1-4d8e-afa6-aecb3a3a6a77)" width="400"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Contact 
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/4eb22120-c075-45ad-810e-d8c288c45ea9)" width="400"/>
 
-### Making a Progressive Web App
+### FAQ
+The FAQ section contains the most frequently asked questions. After clicking on a given question, the answer to it will unfold.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src="https://github.com/Dawid2502/car-service-react/assets/116349234/62cdb516-a58d-4261-8ca0-100ca4829068" width="400"/>
 
-### Advanced Configuration
+## Goals on future
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Add sections **Vehicle control station** and **Roadside assistance**
 
-### Deployment
+## Photo's source
+https://pixabay.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+https://unsplash.com/
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Live
+https://vermillion-phoenix-a43f01.netlify.app/
